@@ -1,0 +1,75 @@
+{
+    "name": "",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "node build.js",
+        "test": "jest",
+        "start": "node index.js",
+        "debug": "nodemon --inspect ./bin/www"
+    },
+    "engines": {
+        "node": "10.15.1"
+    },
+    "dependencies": {
+        "@babel/cli": "^7.4.3",
+        "@babel/core": "^7.4.3",
+        "@babel/polyfill": "^7.4.3",
+        "@babel/preset-env": "^7.4.3",
+        "@babel/preset-react": "^7.0.0",
+        "@zurichversicherung/webpack-combine-loaders": "^2.1.0",
+        "acorn": "^6.1.1",
+        "acorn-dynamic-import": "^4.0.0",
+        "axios": "^0.19.0",
+        "babel-loader": "^8.0.5",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.15.2",
+        "compression": "^1.7.0",
+        "cookie-parser": "^1.4.3",
+        "cookie-session": "^2.0.0-alpha.2",
+        "csurf": "^1.9.0",
+        "enzyme": "^3.8.0",
+        "enzyme-adapter-react-16": "^1.7.1",
+        "eslint": "^4.19.1",
+        "eslint-plugin-react": "^7.12.4",
+        "express": "^4.14.0",
+        "http-proxy-middleware": "^0.19.1",
+        "jest": "^24.7.1",
+        "knox-s3": "^0.9.5",
+        "multer": "^1.3.0",
+        "react": "^16.8.6",
+        "react-animate-on-scroll": "^2.1.5",
+        "react-coverflow": "^0.2.20",
+        "react-dom": "^16.8.6",
+        "react-parallax": "^2.2.0",
+        "react-player": "^1.11.1",
+        "react-redux": "^5.0.5",
+        "react-router": "^4.2.0",
+        "react-router-dom": "^4.2.2",
+        "react-test-renderer": "^16.6.0",
+        "react-transition-group": "^4.1.0",
+        "redux": "^3.7.1",
+        "redux-devtools-extension": "^2.13.8",
+        "redux-promise": "^0.5.3",
+        "request": "^2.88.0",
+        "socket.io": "^2.2.0",
+        "uglifyjs-webpack-plugin": "^2.1.2",
+        "uid-safe": "^2.1.4",
+        "webpack-cli": "^2.0.14",
+        "webpack-dev-middleware": "^1.8.4"
+    },
+    "jest": {
+        "setupFiles": [
+            "./jest.js"
+        ]
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "extract-text-webpack-plugin": "^4.0.0-alpha.0",
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.34.0"
+    }
+}
